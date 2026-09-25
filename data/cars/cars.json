@@ -1,0 +1,19 @@
+[
+  { "id": "zippy", "name": "Zippy Hatch", "class": "Small hatchback", "body": "hatch", "price": 0, "starter": true, "rarity": "common", "paint": "sunburst", "stats": { "style": 2, "vibe": 3 } },
+  { "id": "metro", "name": "Metro Sedan", "class": "Sedan", "body": "sedan", "price": 0, "starter": true, "rarity": "common", "paint": "harbour", "stats": { "style": 2, "vibe": 2 } },
+  { "id": "trail", "name": "Trail SUV", "class": "Compact SUV", "body": "suv", "price": 0, "starter": true, "rarity": "common", "paint": "eucalypt", "stats": { "style": 3, "vibe": 2 } },
+  { "id": "surfie", "name": "Surfie Wagon", "class": "Wagon", "body": "wagon", "price": 600, "levelRequired": 3, "rarity": "common", "paint": "coral", "stats": { "style": 3, "vibe": 4 } },
+  { "id": "tradie", "name": "Tradie Ute", "class": "Ute", "body": "ute", "price": 900, "levelRequired": 5, "rarity": "rare", "paint": "outback", "stats": { "style": 3, "vibe": 5 } },
+  { "id": "family", "name": "Harbour Cruiser", "class": "Family SUV", "body": "suv", "price": 1100, "levelRequired": 6, "rarity": "common", "paint": "midnight", "stats": { "style": 3, "vibe": 3 } },
+  { "id": "vanlife", "name": "Coastal Van", "class": "People mover", "body": "van", "price": 1300, "levelRequired": 8, "rarity": "rare", "paint": "seafoam", "stats": { "style": 3, "vibe": 5 } },
+  { "id": "hothatch", "name": "Pocket Rocket", "class": "Sports hatch", "body": "sporthatch", "price": 1800, "levelRequired": 10, "rarity": "rare", "paint": "flame", "stats": { "style": 4, "vibe": 4 } },
+  { "id": "gt", "name": "Southern GT", "class": "Sports car", "body": "sports", "price": 3000, "levelRequired": 15, "rarity": "epic", "paint": "electric", "stats": { "style": 5, "vibe": 4 } },
+  { "id": "outback4x4", "name": "Outback 4x4", "class": "Off-roader", "body": "suv", "price": 2600, "levelRequired": 12, "rarity": "epic", "paint": "redearth", "stats": { "style": 4, "vibe": 5 } },
+  { "id": "prestige", "name": "Opera Prestige", "class": "Prestige sedan", "body": "prestige", "price": 5000, "levelRequired": 20, "rarity": "epic", "paint": "pearl", "stats": { "style": 5, "vibe": 3 } },
+  { "id": "eco", "name": "Volt Bolt EV", "class": "Electric hatch", "body": "hatch", "price": 2200, "levelRequired": 9, "rarity": "rare", "paint": "mint", "stats": { "style": 4, "vibe": 4 } },
+  { "id": "retro", "name": "Retro '78 Coupe", "class": "Classic", "body": "sports", "price": 0, "achievement": "perfect-10", "rarity": "epic", "paint": "mustard", "stats": { "style": 5, "vibe": 5 } },
+  { "id": "golden", "name": "Golden L-Plate Special", "class": "Achievement vehicle", "body": "sporthatch", "price": 0, "achievement": "virtual-licence", "rarity": "legendary", "paint": "gold", "stats": { "style": 5, "vibe": 5 } },
+  { "id": "champion", "name": "Suburb Champion", "class": "Achievement vehicle", "body": "sports", "price": 0, "achievement": "suburb-hero", "rarity": "legendary", "paint": "champion", "stats": { "style": 5, "vibe": 5 } },
+  { "id": "elite", "name": "Road Elite Hyper", "class": "Hypercar", "body": "sports", "price": 0, "achievement": "road-elite", "rarity": "legendary", "paint": "obsidian", "stats": { "style": 5, "vibe": 5 } },
+  { "id": "weekly", "name": "Weekly Warrior", "class": "Event exclusive", "body": "prestige", "price": 0, "achievement": "weekly-warrior", "rarity": "legendary", "paint": "ultraviolet", "stats": { "style": 5, "vibe": 4 } }
+]

@@ -1,0 +1,1688 @@
+[
+ {
+  "id": "first-drive",
+  "name": "First Drive",
+  "description": "Complete your first challenge.",
+  "rarity": "common",
+  "icon": "Car",
+  "condition": {
+   "type": "firstDrive"
+  }
+ },
+ {
+  "id": "answered-10",
+  "name": "Warming Up",
+  "description": "Answer 10 questions.",
+  "rarity": "common",
+  "icon": "MessageSquare",
+  "condition": {
+   "type": "answered",
+   "value": 10
+  }
+ },
+ {
+  "id": "answered-25",
+  "name": "Getting Somewhere",
+  "description": "Answer 25 questions.",
+  "rarity": "common",
+  "icon": "MessageSquare",
+  "condition": {
+   "type": "answered",
+   "value": 25
+  }
+ },
+ {
+  "id": "answered-50",
+  "name": "Half Century",
+  "description": "Answer 50 questions.",
+  "rarity": "common",
+  "icon": "MessageSquare",
+  "condition": {
+   "type": "answered",
+   "value": 50
+  }
+ },
+ {
+  "id": "answered-100",
+  "name": "Question Machine",
+  "description": "Answer 100 questions.",
+  "rarity": "rare",
+  "icon": "MessageSquare",
+  "condition": {
+   "type": "answered",
+   "value": 100
+  }
+ },
+ {
+  "id": "answered-250",
+  "name": "Study Buddy",
+  "description": "Answer 250 questions.",
+  "rarity": "rare",
+  "icon": "MessageSquare",
+  "condition": {
+   "type": "answered",
+   "value": 250
+  }
+ },
+ {
+  "id": "answered-500",
+  "name": "Rule Book Reader",
+  "description": "Answer 500 questions.",
+  "rarity": "epic",
+  "icon": "MessageSquare",
+  "condition": {
+   "type": "answered",
+   "value": 500
+  }
+ },
+ {
+  "id": "answered-1000",
+  "name": "Thousand Club",
+  "description": "Answer 1000 questions.",
+  "rarity": "epic",
+  "icon": "MessageSquare",
+  "condition": {
+   "type": "answered",
+   "value": 1000
+  }
+ },
+ {
+  "id": "answered-2500",
+  "name": "Encyclopaedia",
+  "description": "Answer 2500 questions.",
+  "rarity": "legendary",
+  "icon": "MessageSquare",
+  "condition": {
+   "type": "answered",
+   "value": 2500
+  }
+ },
+ {
+  "id": "correct-25",
+  "name": "On a Roll",
+  "description": "Answer 25 questions correctly.",
+  "rarity": "common",
+  "icon": "CheckCircle2",
+  "condition": {
+   "type": "correctTotal",
+   "value": 25
+  }
+ },
+ {
+  "id": "century",
+  "name": "Century",
+  "description": "Answer 100 questions correctly.",
+  "rarity": "rare",
+  "icon": "CheckCircle2",
+  "condition": {
+   "type": "correctTotal",
+   "value": 100
+  }
+ },
+ {
+  "id": "correct-250",
+  "name": "Quarter Grand",
+  "description": "Answer 250 questions correctly.",
+  "rarity": "rare",
+  "icon": "CheckCircle2",
+  "condition": {
+   "type": "correctTotal",
+   "value": 250
+  }
+ },
+ {
+  "id": "correct-500",
+  "name": "Five Hundred",
+  "description": "Answer 500 questions correctly.",
+  "rarity": "epic",
+  "icon": "CheckCircle2",
+  "condition": {
+   "type": "correctTotal",
+   "value": 500
+  }
+ },
+ {
+  "id": "road-scholar",
+  "name": "Road Scholar",
+  "description": "Answer 1000 questions correctly.",
+  "rarity": "epic",
+  "icon": "CheckCircle2",
+  "condition": {
+   "type": "correctTotal",
+   "value": 1000
+  }
+ },
+ {
+  "id": "correct-2000",
+  "name": "Professor of the Pavement",
+  "description": "Answer 2000 questions correctly.",
+  "rarity": "legendary",
+  "icon": "CheckCircle2",
+  "condition": {
+   "type": "correctTotal",
+   "value": 2000
+  }
+ },
+ {
+  "id": "streak-5",
+  "name": "High Five",
+  "description": "Answer 5 correctly in a row.",
+  "rarity": "common",
+  "icon": "Flame",
+  "condition": {
+   "type": "streak",
+   "value": 5
+  }
+ },
+ {
+  "id": "perfect-10",
+  "name": "Perfect 10",
+  "description": "Answer 10 correctly in a row.",
+  "rarity": "rare",
+  "icon": "Flame",
+  "condition": {
+   "type": "streak",
+   "value": 10
+  }
+ },
+ {
+  "id": "streak-15",
+  "name": "Fifteen Flawless",
+  "description": "Answer 15 correctly in a row.",
+  "rarity": "rare",
+  "icon": "Flame",
+  "condition": {
+   "type": "streak",
+   "value": 15
+  }
+ },
+ {
+  "id": "streak-20",
+  "name": "Twenty Straight",
+  "description": "Answer 20 correctly in a row.",
+  "rarity": "epic",
+  "icon": "Flame",
+  "condition": {
+   "type": "streak",
+   "value": 20
+  }
+ },
+ {
+  "id": "streak-30",
+  "name": "Unstoppable",
+  "description": "Answer 30 correctly in a row.",
+  "rarity": "epic",
+  "icon": "Flame",
+  "condition": {
+   "type": "streak",
+   "value": 30
+  }
+ },
+ {
+  "id": "streak-50",
+  "name": "Fifty Flawless",
+  "description": "Answer 50 correctly in a row.",
+  "rarity": "legendary",
+  "icon": "Flame",
+  "condition": {
+   "type": "streak",
+   "value": 50
+  }
+ },
+ {
+  "id": "level-2",
+  "name": "Level 2",
+  "description": "Reach player level 2.",
+  "rarity": "common",
+  "icon": "ArrowUpCircle",
+  "condition": {
+   "type": "level",
+   "value": 2
+  }
+ },
+ {
+  "id": "level-5",
+  "name": "Level 5",
+  "description": "Reach player level 5.",
+  "rarity": "common",
+  "icon": "ArrowUpCircle",
+  "condition": {
+   "type": "level",
+   "value": 5
+  }
+ },
+ {
+  "id": "level-10",
+  "name": "Level 10",
+  "description": "Reach player level 10.",
+  "rarity": "rare",
+  "icon": "ArrowUpCircle",
+  "condition": {
+   "type": "level",
+   "value": 10
+  }
+ },
+ {
+  "id": "level-15",
+  "name": "Level 15",
+  "description": "Reach player level 15.",
+  "rarity": "rare",
+  "icon": "ArrowUpCircle",
+  "condition": {
+   "type": "level",
+   "value": 15
+  }
+ },
+ {
+  "id": "level-20",
+  "name": "Level 20",
+  "description": "Reach player level 20.",
+  "rarity": "epic",
+  "icon": "ArrowUpCircle",
+  "condition": {
+   "type": "level",
+   "value": 20
+  }
+ },
+ {
+  "id": "level-30",
+  "name": "Level 30",
+  "description": "Reach player level 30.",
+  "rarity": "epic",
+  "icon": "ArrowUpCircle",
+  "condition": {
+   "type": "level",
+   "value": 30
+  }
+ },
+ {
+  "id": "level-40",
+  "name": "Level 40",
+  "description": "Reach player level 40.",
+  "rarity": "legendary",
+  "icon": "ArrowUpCircle",
+  "condition": {
+   "type": "level",
+   "value": 40
+  }
+ },
+ {
+  "id": "level-50",
+  "name": "Level 50",
+  "description": "Reach player level 50.",
+  "rarity": "legendary",
+  "icon": "ArrowUpCircle",
+  "condition": {
+   "type": "level",
+   "value": 50
+  }
+ },
+ {
+  "id": "skill-1100",
+  "name": "Silver Service",
+  "description": "Reach a Skill Rating of 1,100.",
+  "rarity": "common",
+  "icon": "Sparkles",
+  "condition": {
+   "type": "skill",
+   "value": 1100
+  }
+ },
+ {
+  "id": "skill-1250",
+  "name": "Golden Driver",
+  "description": "Reach a Skill Rating of 1,250.",
+  "rarity": "rare",
+  "icon": "Sparkles",
+  "condition": {
+   "type": "skill",
+   "value": 1250
+  }
+ },
+ {
+  "id": "skill-1400",
+  "name": "Platinum Pilot",
+  "description": "Reach a Skill Rating of 1,400.",
+  "rarity": "epic",
+  "icon": "Sparkles",
+  "condition": {
+   "type": "skill",
+   "value": 1400
+  }
+ },
+ {
+  "id": "skill-1550",
+  "name": "Diamond Driver",
+  "description": "Reach a Skill Rating of 1,550.",
+  "rarity": "epic",
+  "icon": "Sparkles",
+  "condition": {
+   "type": "skill",
+   "value": 1550
+  }
+ },
+ {
+  "id": "road-elite",
+  "name": "Road Elite",
+  "description": "Reach a Skill Rating of 1,700.",
+  "rarity": "legendary",
+  "icon": "Sparkles",
+  "condition": {
+   "type": "skill",
+   "value": 1700
+  }
+ },
+ {
+  "id": "clear-quiet-suburbs",
+  "name": "Suburb Starter",
+  "description": "Complete the Quiet Suburbs location.",
+  "rarity": "rare",
+  "icon": "Home",
+  "condition": {
+   "type": "mapLevel",
+   "param": "quiet-suburbs"
+  }
+ },
+ {
+  "id": "stars-quiet-suburbs",
+  "name": "Suburb Starter \u2605\u2605\u2605",
+  "description": "Earn 3 stars at Quiet Suburbs.",
+  "rarity": "epic",
+  "icon": "Star",
+  "condition": {
+   "type": "mapLevelStars",
+   "value": 3,
+   "param": "quiet-suburbs"
+  }
+ },
+ {
+  "id": "clear-school-zone",
+  "name": "School Zone Safe",
+  "description": "Complete the School Zone location.",
+  "rarity": "rare",
+  "icon": "School",
+  "condition": {
+   "type": "mapLevel",
+   "param": "school-zone"
+  }
+ },
+ {
+  "id": "stars-school-zone",
+  "name": "School Zone Safe \u2605\u2605\u2605",
+  "description": "Earn 3 stars at School Zone.",
+  "rarity": "epic",
+  "icon": "Star",
+  "condition": {
+   "type": "mapLevelStars",
+   "value": 3,
+   "param": "school-zone"
+  }
+ },
+ {
+  "id": "clear-shopping-district",
+  "name": "Shop Smart",
+  "description": "Complete the Shopping District location.",
+  "rarity": "rare",
+  "icon": "ShoppingBag",
+  "condition": {
+   "type": "mapLevel",
+   "param": "shopping-district"
+  }
+ },
+ {
+  "id": "stars-shopping-district",
+  "name": "Shop Smart \u2605\u2605\u2605",
+  "description": "Earn 3 stars at Shopping District.",
+  "rarity": "epic",
+  "icon": "Star",
+  "condition": {
+   "type": "mapLevelStars",
+   "value": 3,
+   "param": "shopping-district"
+  }
+ },
+ {
+  "id": "clear-busy-intersections",
+  "name": "Intersection Survivor",
+  "description": "Complete the Busy Intersections location.",
+  "rarity": "rare",
+  "icon": "Split",
+  "condition": {
+   "type": "mapLevel",
+   "param": "busy-intersections"
+  }
+ },
+ {
+  "id": "stars-busy-intersections",
+  "name": "Intersection Survivor \u2605\u2605\u2605",
+  "description": "Earn 3 stars at Busy Intersections.",
+  "rarity": "epic",
+  "icon": "Star",
+  "condition": {
+   "type": "mapLevelStars",
+   "value": 3,
+   "param": "busy-intersections"
+  }
+ },
+ {
+  "id": "clear-major-roundabouts",
+  "name": "Round and Round",
+  "description": "Complete the Major Roundabouts location.",
+  "rarity": "rare",
+  "icon": "RotateCw",
+  "condition": {
+   "type": "mapLevel",
+   "param": "major-roundabouts"
+  }
+ },
+ {
+  "id": "stars-major-roundabouts",
+  "name": "Round and Round \u2605\u2605\u2605",
+  "description": "Earn 3 stars at Major Roundabouts.",
+  "rarity": "epic",
+  "icon": "Star",
+  "condition": {
+   "type": "mapLevelStars",
+   "value": 3,
+   "param": "major-roundabouts"
+  }
+ },
+ {
+  "id": "clear-motorway",
+  "name": "Motorway Merger",
+  "description": "Complete the Motorway location.",
+  "rarity": "rare",
+  "icon": "Route",
+  "condition": {
+   "type": "mapLevel",
+   "param": "motorway"
+  }
+ },
+ {
+  "id": "stars-motorway",
+  "name": "Motorway Merger \u2605\u2605\u2605",
+  "description": "Earn 3 stars at Motorway.",
+  "rarity": "epic",
+  "icon": "Star",
+  "condition": {
+   "type": "mapLevelStars",
+   "value": 3,
+   "param": "motorway"
+  }
+ },
+ {
+  "id": "clear-sydney-cbd",
+  "name": "City Slicker",
+  "description": "Complete the Sydney Cbd location.",
+  "rarity": "rare",
+  "icon": "Building2",
+  "condition": {
+   "type": "mapLevel",
+   "param": "sydney-cbd"
+  }
+ },
+ {
+  "id": "stars-sydney-cbd",
+  "name": "City Slicker \u2605\u2605\u2605",
+  "description": "Earn 3 stars at Sydney Cbd.",
+  "rarity": "epic",
+  "icon": "Star",
+  "condition": {
+   "type": "mapLevelStars",
+   "value": 3,
+   "param": "sydney-cbd"
+  }
+ },
+ {
+  "id": "night-owl",
+  "name": "Night Owl",
+  "description": "Complete the Night Drive location.",
+  "rarity": "rare",
+  "icon": "Moon",
+  "condition": {
+   "type": "mapLevel",
+   "param": "night-drive"
+  }
+ },
+ {
+  "id": "stars-night-drive",
+  "name": "Night Owl \u2605\u2605\u2605",
+  "description": "Earn 3 stars at Night Drive.",
+  "rarity": "epic",
+  "icon": "Star",
+  "condition": {
+   "type": "mapLevelStars",
+   "value": 3,
+   "param": "night-drive"
+  }
+ },
+ {
+  "id": "rain-master",
+  "name": "Rain Master",
+  "description": "Complete the Wet Weather location.",
+  "rarity": "rare",
+  "icon": "CloudRain",
+  "condition": {
+   "type": "mapLevel",
+   "param": "wet-weather"
+  }
+ },
+ {
+  "id": "stars-wet-weather",
+  "name": "Rain Master \u2605\u2605\u2605",
+  "description": "Earn 3 stars at Wet Weather.",
+  "rarity": "epic",
+  "icon": "Star",
+  "condition": {
+   "type": "mapLevelStars",
+   "value": 3,
+   "param": "wet-weather"
+  }
+ },
+ {
+  "id": "clear-country-highway",
+  "name": "Country Cruiser",
+  "description": "Complete the Country Highway location.",
+  "rarity": "rare",
+  "icon": "Mountain",
+  "condition": {
+   "type": "mapLevel",
+   "param": "country-highway"
+  }
+ },
+ {
+  "id": "stars-country-highway",
+  "name": "Country Cruiser \u2605\u2605\u2605",
+  "description": "Earn 3 stars at Country Highway.",
+  "rarity": "epic",
+  "icon": "Star",
+  "condition": {
+   "type": "mapLevelStars",
+   "value": 3,
+   "param": "country-highway"
+  }
+ },
+ {
+  "id": "clear-ultimate-nsw",
+  "name": "Ultimate Champion",
+  "description": "Complete the Ultimate Nsw location.",
+  "rarity": "epic",
+  "icon": "Crown",
+  "condition": {
+   "type": "mapLevel",
+   "param": "ultimate-nsw"
+  }
+ },
+ {
+  "id": "stars-ultimate-nsw",
+  "name": "Ultimate Champion \u2605\u2605\u2605",
+  "description": "Earn 3 stars at Ultimate Nsw.",
+  "rarity": "legendary",
+  "icon": "Star",
+  "condition": {
+   "type": "mapLevelStars",
+   "value": 3,
+   "param": "ultimate-nsw"
+  }
+ },
+ {
+  "id": "mastery-general",
+  "name": "General Knowledge Pro",
+  "description": "Reach 80% mastery in General Knowledge.",
+  "rarity": "rare",
+  "icon": "Target",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 0.8,
+   "param": "general"
+  }
+ },
+ {
+  "id": "perfect-general",
+  "name": "General Knowledge Perfection",
+  "description": "Reach 100% mastery in General Knowledge.",
+  "rarity": "legendary",
+  "icon": "Gem",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 1.0,
+   "param": "general"
+  }
+ },
+ {
+  "id": "mastery-alcohol-drugs",
+  "name": "Alcohol & Drugs Pro",
+  "description": "Reach 80% mastery in Alcohol & Drugs.",
+  "rarity": "rare",
+  "icon": "Target",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 0.8,
+   "param": "alcohol-drugs"
+  }
+ },
+ {
+  "id": "perfect-alcohol-drugs",
+  "name": "Alcohol & Drugs Perfection",
+  "description": "Reach 100% mastery in Alcohol & Drugs.",
+  "rarity": "epic",
+  "icon": "Gem",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 1.0,
+   "param": "alcohol-drugs"
+  }
+ },
+ {
+  "id": "mastery-bicycles",
+  "name": "Bicycle Safety Pro",
+  "description": "Reach 80% mastery in Bicycle Safety.",
+  "rarity": "rare",
+  "icon": "Target",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 0.8,
+   "param": "bicycles"
+  }
+ },
+ {
+  "id": "perfect-bicycles",
+  "name": "Bicycle Safety Perfection",
+  "description": "Reach 100% mastery in Bicycle Safety.",
+  "rarity": "epic",
+  "icon": "Gem",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 1.0,
+   "param": "bicycles"
+  }
+ },
+ {
+  "id": "mastery-fatigue-defensive",
+  "name": "Fatigue & Defensive Driving Pro",
+  "description": "Reach 80% mastery in Fatigue & Defensive Driving.",
+  "rarity": "rare",
+  "icon": "Target",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 0.8,
+   "param": "fatigue-defensive"
+  }
+ },
+ {
+  "id": "perfect-fatigue-defensive",
+  "name": "Fatigue & Defensive Driving Perfection",
+  "description": "Reach 100% mastery in Fatigue & Defensive Driving.",
+  "rarity": "epic",
+  "icon": "Gem",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 1.0,
+   "param": "fatigue-defensive"
+  }
+ },
+ {
+  "id": "mastery-intersections",
+  "name": "Intersections Pro",
+  "description": "Reach 80% mastery in Intersections.",
+  "rarity": "rare",
+  "icon": "Target",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 0.8,
+   "param": "intersections"
+  }
+ },
+ {
+  "id": "perfect-intersections",
+  "name": "Intersections Perfection",
+  "description": "Reach 100% mastery in Intersections.",
+  "rarity": "epic",
+  "icon": "Gem",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 1.0,
+   "param": "intersections"
+  }
+ },
+ {
+  "id": "mastery-roundabouts",
+  "name": "Roundabouts Pro",
+  "description": "Reach 80% mastery in Roundabouts.",
+  "rarity": "rare",
+  "icon": "Target",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 0.8,
+   "param": "roundabouts"
+  }
+ },
+ {
+  "id": "perfect-roundabouts",
+  "name": "Roundabouts Perfection",
+  "description": "Reach 100% mastery in Roundabouts.",
+  "rarity": "epic",
+  "icon": "Gem",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 1.0,
+   "param": "roundabouts"
+  }
+ },
+ {
+  "id": "mastery-traffic-lights",
+  "name": "Traffic Lights Pro",
+  "description": "Reach 80% mastery in Traffic Lights.",
+  "rarity": "rare",
+  "icon": "Target",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 0.8,
+   "param": "traffic-lights"
+  }
+ },
+ {
+  "id": "perfect-traffic-lights",
+  "name": "Traffic Lights Perfection",
+  "description": "Reach 100% mastery in Traffic Lights.",
+  "rarity": "epic",
+  "icon": "Gem",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 1.0,
+   "param": "traffic-lights"
+  }
+ },
+ {
+  "id": "mastery-traffic-lanes",
+  "name": "Traffic Lanes Pro",
+  "description": "Reach 80% mastery in Traffic Lanes.",
+  "rarity": "rare",
+  "icon": "Target",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 0.8,
+   "param": "traffic-lanes"
+  }
+ },
+ {
+  "id": "perfect-traffic-lanes",
+  "name": "Traffic Lanes Perfection",
+  "description": "Reach 100% mastery in Traffic Lanes.",
+  "rarity": "epic",
+  "icon": "Gem",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 1.0,
+   "param": "traffic-lanes"
+  }
+ },
+ {
+  "id": "mastery-negligent-driving",
+  "name": "Overtaking Pro",
+  "description": "Reach 80% mastery in Overtaking.",
+  "rarity": "rare",
+  "icon": "Target",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 0.8,
+   "param": "negligent-driving"
+  }
+ },
+ {
+  "id": "perfect-negligent-driving",
+  "name": "Overtaking Perfection",
+  "description": "Reach 100% mastery in Overtaking.",
+  "rarity": "epic",
+  "icon": "Gem",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 1.0,
+   "param": "negligent-driving"
+  }
+ },
+ {
+  "id": "mastery-pedestrians",
+  "name": "Pedestrians Pro",
+  "description": "Reach 80% mastery in Pedestrians.",
+  "rarity": "rare",
+  "icon": "Target",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 0.8,
+   "param": "pedestrians"
+  }
+ },
+ {
+  "id": "perfect-pedestrians",
+  "name": "Pedestrians Perfection",
+  "description": "Reach 100% mastery in Pedestrians.",
+  "rarity": "epic",
+  "icon": "Gem",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 1.0,
+   "param": "pedestrians"
+  }
+ },
+ {
+  "id": "mastery-seatbelts",
+  "name": "Seat Belts Pro",
+  "description": "Reach 80% mastery in Seat Belts.",
+  "rarity": "rare",
+  "icon": "Target",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 0.8,
+   "param": "seatbelts"
+  }
+ },
+ {
+  "id": "perfect-seatbelts",
+  "name": "Seat Belts Perfection",
+  "description": "Reach 100% mastery in Seat Belts.",
+  "rarity": "epic",
+  "icon": "Gem",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 1.0,
+   "param": "seatbelts"
+  }
+ },
+ {
+  "id": "mastery-speed-limits",
+  "name": "Speed Limits Pro",
+  "description": "Reach 80% mastery in Speed Limits.",
+  "rarity": "rare",
+  "icon": "Target",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 0.8,
+   "param": "speed-limits"
+  }
+ },
+ {
+  "id": "perfect-speed-limits",
+  "name": "Speed Limits Perfection",
+  "description": "Reach 100% mastery in Speed Limits.",
+  "rarity": "epic",
+  "icon": "Gem",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 1.0,
+   "param": "speed-limits"
+  }
+ },
+ {
+  "id": "mastery-traffic-signs",
+  "name": "Traffic Signs Pro",
+  "description": "Reach 80% mastery in Traffic Signs.",
+  "rarity": "rare",
+  "icon": "Target",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 0.8,
+   "param": "traffic-signs"
+  }
+ },
+ {
+  "id": "perfect-traffic-signs",
+  "name": "Traffic Signs Perfection",
+  "description": "Reach 100% mastery in Traffic Signs.",
+  "rarity": "legendary",
+  "icon": "Gem",
+  "condition": {
+   "type": "categoryMastery",
+   "value": 1.0,
+   "param": "traffic-signs"
+  }
+ },
+ {
+  "id": "sign-master",
+  "name": "Sign Master",
+  "description": "Correctly identify 50 road signs.",
+  "rarity": "rare",
+  "icon": "Signpost",
+  "condition": {
+   "type": "categoryCorrect",
+   "value": 50,
+   "param": "traffic-signs"
+  }
+ },
+ {
+  "id": "give-way-guru",
+  "name": "Give Way Guru",
+  "description": "Answer 50 intersection questions correctly.",
+  "rarity": "rare",
+  "icon": "Split",
+  "condition": {
+   "type": "categoryCorrect",
+   "value": 50,
+   "param": "intersections"
+  }
+ },
+ {
+  "id": "ped-protector",
+  "name": "Pedestrian Protector",
+  "description": "Answer 40 pedestrian questions correctly.",
+  "rarity": "rare",
+  "icon": "Footprints",
+  "condition": {
+   "type": "categoryCorrect",
+   "value": 40,
+   "param": "pedestrians"
+  }
+ },
+ {
+  "id": "perfect-game-who-goes-first",
+  "name": "Right of Way",
+  "description": "Complete a perfect Who Goes First mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "who-goes-first"
+  }
+ },
+ {
+  "id": "perfect-game-spot-the-hazard",
+  "name": "Hawk Eyes",
+  "description": "Complete a perfect Spot The Hazard mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "spot-the-hazard"
+  }
+ },
+ {
+  "id": "perfect-game-pick-the-lane",
+  "name": "Lane Legend",
+  "description": "Complete a perfect Pick The Lane mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "pick-the-lane"
+  }
+ },
+ {
+  "id": "perfect-game-sign-snap",
+  "name": "Snap Happy",
+  "description": "Complete a perfect Sign Snap mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "sign-snap"
+  }
+ },
+ {
+  "id": "perfect-game-legal-or-illegal",
+  "name": "Judge Judy-cious",
+  "description": "Complete a perfect Legal Or Illegal mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "legal-or-illegal"
+  }
+ },
+ {
+  "id": "perfect-game-park-it",
+  "name": "Parking Pro",
+  "description": "Complete a perfect Park It mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "park-it"
+  }
+ },
+ {
+  "id": "roundabout-royalty",
+  "name": "Roundabout Royalty",
+  "description": "Complete a perfect Roundabout Rush mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "roundabout-rush"
+  }
+ },
+ {
+  "id": "perfect-game-beat-the-lights",
+  "name": "Light Reader",
+  "description": "Complete a perfect Beat The Lights mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "beat-the-lights"
+  }
+ },
+ {
+  "id": "perfect-game-safe-gap",
+  "name": "Gap Keeper",
+  "description": "Complete a perfect Safe Gap mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "safe-gap"
+  }
+ },
+ {
+  "id": "roadwork-ready",
+  "name": "Roadwork Ready",
+  "description": "Complete a perfect Roadwork Ready mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "roadwork-ready"
+  }
+ },
+ {
+  "id": "perfect-game-pedestrian-watch",
+  "name": "Crossing Guardian",
+  "description": "Complete a perfect Pedestrian Watch mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "pedestrian-watch"
+  }
+ },
+ {
+  "id": "perfect-game-cyclist-safe",
+  "name": "Cyclist's Friend",
+  "description": "Complete a perfect Cyclist Safe mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "cyclist-safe"
+  }
+ },
+ {
+  "id": "perfect-game-night-drive",
+  "name": "Night Vision",
+  "description": "Complete a perfect Night Drive mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "night-drive"
+  }
+ },
+ {
+  "id": "perfect-game-wet-weather",
+  "name": "Storm Chaser",
+  "description": "Complete a perfect Wet Weather mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "wet-weather"
+  }
+ },
+ {
+  "id": "perfect-game-fatigue-challenge",
+  "name": "Wide Awake",
+  "description": "Complete a perfect Fatigue Challenge mini-game.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamePerfect",
+   "param": "fatigue-challenge"
+  }
+ },
+ {
+  "id": "minigames-1",
+  "name": "Arcade Rookie",
+  "description": "Play 1 mini-game.",
+  "rarity": "common",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamesPlayed",
+   "value": 1
+  }
+ },
+ {
+  "id": "minigames-10",
+  "name": "Arcade Regular 10",
+  "description": "Play 10 mini-games.",
+  "rarity": "rare",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamesPlayed",
+   "value": 10
+  }
+ },
+ {
+  "id": "minigames-50",
+  "name": "Arcade Regular 50",
+  "description": "Play 50 mini-games.",
+  "rarity": "epic",
+  "icon": "Gamepad2",
+  "condition": {
+   "type": "minigamesPlayed",
+   "value": 50
+  }
+ },
+ {
+  "id": "daily-1",
+  "name": "Daily Driver",
+  "description": "Complete 1 daily challenge.",
+  "rarity": "common",
+  "icon": "CalendarCheck",
+  "condition": {
+   "type": "dailyCompleted",
+   "value": 1
+  }
+ },
+ {
+  "id": "daily-7",
+  "name": "7 Daily Challenges",
+  "description": "Complete 7 daily challenges.",
+  "rarity": "rare",
+  "icon": "CalendarCheck",
+  "condition": {
+   "type": "dailyCompleted",
+   "value": 7
+  }
+ },
+ {
+  "id": "daily-30",
+  "name": "30 Daily Challenges",
+  "description": "Complete 30 daily challenges.",
+  "rarity": "epic",
+  "icon": "CalendarCheck",
+  "condition": {
+   "type": "dailyCompleted",
+   "value": 30
+  }
+ },
+ {
+  "id": "daily-100",
+  "name": "100 Daily Challenges",
+  "description": "Complete 100 daily challenges.",
+  "rarity": "legendary",
+  "icon": "CalendarCheck",
+  "condition": {
+   "type": "dailyCompleted",
+   "value": 100
+  }
+ },
+ {
+  "id": "daily-streak-3",
+  "name": "3-Day Streak",
+  "description": "Complete the daily challenge 3 days in a row.",
+  "rarity": "rare",
+  "icon": "CalendarDays",
+  "condition": {
+   "type": "dailyStreak",
+   "value": 3
+  }
+ },
+ {
+  "id": "daily-streak-7",
+  "name": "7-Day Streak",
+  "description": "Complete the daily challenge 7 days in a row.",
+  "rarity": "epic",
+  "icon": "CalendarDays",
+  "condition": {
+   "type": "dailyStreak",
+   "value": 7
+  }
+ },
+ {
+  "id": "daily-streak-14",
+  "name": "14-Day Streak",
+  "description": "Complete the daily challenge 14 days in a row.",
+  "rarity": "legendary",
+  "icon": "CalendarDays",
+  "condition": {
+   "type": "dailyStreak",
+   "value": 14
+  }
+ },
+ {
+  "id": "weekly-warrior",
+  "name": "Weekly Warrior",
+  "description": "Complete a weekly challenge.",
+  "rarity": "epic",
+  "icon": "Swords",
+  "condition": {
+   "type": "weeklyCompleted",
+   "value": 1
+  }
+ },
+ {
+  "id": "weekly-5",
+  "name": "Seasoned Competitor",
+  "description": "Complete 5 weekly challenges.",
+  "rarity": "legendary",
+  "icon": "Swords",
+  "condition": {
+   "type": "weeklyCompleted",
+   "value": 5
+  }
+ },
+ {
+  "id": "test-first",
+  "name": "Test Taker",
+  "description": "Complete a practice test.",
+  "rarity": "common",
+  "icon": "ClipboardList",
+  "condition": {
+   "type": "testsTaken",
+   "value": 1
+  }
+ },
+ {
+  "id": "test-5",
+  "name": "Test Veteran",
+  "description": "Complete 5 practice tests.",
+  "rarity": "rare",
+  "icon": "ClipboardList",
+  "condition": {
+   "type": "testsTaken",
+   "value": 5
+  }
+ },
+ {
+  "id": "test-pass",
+  "name": "Practice Pass",
+  "description": "Pass a practice test.",
+  "rarity": "rare",
+  "icon": "ClipboardCheck",
+  "condition": {
+   "type": "testPassed"
+  }
+ },
+ {
+  "id": "final-pass",
+  "name": "The Ultimate Test",
+  "description": "Pass the Ultimate NSW Learner Test.",
+  "rarity": "epic",
+  "icon": "Award",
+  "condition": {
+   "type": "finalPassed"
+  }
+ },
+ {
+  "id": "virtual-licence",
+  "name": "Licensed to Learn",
+  "description": "Earn your RoadQuest Virtual Learner Licence.",
+  "rarity": "legendary",
+  "icon": "IdCard",
+  "condition": {
+   "type": "licence"
+  }
+ },
+ {
+  "id": "garage-1",
+  "name": "Keys in Hand",
+  "description": "Own 1 car.",
+  "rarity": "common",
+  "icon": "Warehouse",
+  "condition": {
+   "type": "carsOwned",
+   "value": 1
+  }
+ },
+ {
+  "id": "garage-4",
+  "name": "Car Collector",
+  "description": "Own 4 cars.",
+  "rarity": "rare",
+  "icon": "Warehouse",
+  "condition": {
+   "type": "carsOwned",
+   "value": 4
+  }
+ },
+ {
+  "id": "garage-8",
+  "name": "Car Collector",
+  "description": "Own 8 cars.",
+  "rarity": "epic",
+  "icon": "Warehouse",
+  "condition": {
+   "type": "carsOwned",
+   "value": 8
+  }
+ },
+ {
+  "id": "garage-12",
+  "name": "Car Collector",
+  "description": "Own 12 cars.",
+  "rarity": "legendary",
+  "icon": "Warehouse",
+  "condition": {
+   "type": "carsOwned",
+   "value": 12
+  }
+ },
+ {
+  "id": "custom-1",
+  "name": "Pimp My Learner",
+  "description": "Apply 1 customisation in the Garage.",
+  "rarity": "common",
+  "icon": "Paintbrush",
+  "condition": {
+   "type": "customised",
+   "value": 1
+  }
+ },
+ {
+  "id": "custom-10",
+  "name": "Customiser 10",
+  "description": "Apply 10 customisations in the Garage.",
+  "rarity": "rare",
+  "icon": "Paintbrush",
+  "condition": {
+   "type": "customised",
+   "value": 10
+  }
+ },
+ {
+  "id": "custom-25",
+  "name": "Customiser 25",
+  "description": "Apply 25 customisations in the Garage.",
+  "rarity": "epic",
+  "icon": "Paintbrush",
+  "condition": {
+   "type": "customised",
+   "value": 25
+  }
+ },
+ {
+  "id": "untouchable",
+  "name": "Untouchable",
+  "description": "Complete a challenge without a single mistake.",
+  "rarity": "common",
+  "icon": "Shield",
+  "condition": {
+   "type": "perfectRuns",
+   "value": 1
+  }
+ },
+ {
+  "id": "untouchable-10",
+  "name": "Untouchable x10",
+  "description": "Complete 10 challenges without a single mistake.",
+  "rarity": "rare",
+  "icon": "Shield",
+  "condition": {
+   "type": "perfectRuns",
+   "value": 10
+  }
+ },
+ {
+  "id": "untouchable-50",
+  "name": "Untouchable x50",
+  "description": "Complete 50 challenges without a single mistake.",
+  "rarity": "epic",
+  "icon": "Shield",
+  "condition": {
+   "type": "perfectRuns",
+   "value": 50
+  }
+ },
+ {
+  "id": "clean-drive-1",
+  "name": "Clean Driver",
+  "description": "Finish 1 drive with zero driving infringements.",
+  "rarity": "common",
+  "icon": "BadgeCheck",
+  "condition": {
+   "type": "cleanDrives",
+   "value": 1
+  }
+ },
+ {
+  "id": "clean-drive-10",
+  "name": "Clean Driver x10",
+  "description": "Finish 10 drives with zero driving infringements.",
+  "rarity": "rare",
+  "icon": "BadgeCheck",
+  "condition": {
+   "type": "cleanDrives",
+   "value": 10
+  }
+ },
+ {
+  "id": "clean-drive-25",
+  "name": "Clean Driver x25",
+  "description": "Finish 25 drives with zero driving infringements.",
+  "rarity": "epic",
+  "icon": "BadgeCheck",
+  "condition": {
+   "type": "cleanDrives",
+   "value": 25
+  }
+ },
+ {
+  "id": "quick-20",
+  "name": "Quick Thinker",
+  "description": "Answer 20 questions correctly in under 3 seconds.",
+  "rarity": "rare",
+  "icon": "Zap",
+  "condition": {
+   "type": "fastAnswers",
+   "value": 20
+  }
+ },
+ {
+  "id": "quick-100",
+  "name": "Lightning Brain",
+  "description": "Answer 100 questions correctly in under 3 seconds.",
+  "rarity": "epic",
+  "icon": "Zap",
+  "condition": {
+   "type": "fastAnswers",
+   "value": 100
+  }
+ },
+ {
+  "id": "rank-road-recruit",
+  "name": "Rank: Road Recruit",
+  "description": "Reach the Road Recruit licence rank.",
+  "rarity": "rare",
+  "icon": "Medal",
+  "condition": {
+   "type": "rank",
+   "param": "road-recruit"
+  }
+ },
+ {
+  "id": "rank-learner",
+  "name": "Rank: Learner",
+  "description": "Reach the Learner licence rank.",
+  "rarity": "rare",
+  "icon": "Medal",
+  "condition": {
+   "type": "rank",
+   "param": "learner"
+  }
+ },
+ {
+  "id": "rank-road-smart",
+  "name": "Rank: Road Smart",
+  "description": "Reach the Road Smart licence rank.",
+  "rarity": "rare",
+  "icon": "Medal",
+  "condition": {
+   "type": "rank",
+   "param": "road-smart"
+  }
+ },
+ {
+  "id": "rank-hazard-hunter",
+  "name": "Rank: Hazard Hunter",
+  "description": "Reach the Hazard Hunter licence rank.",
+  "rarity": "rare",
+  "icon": "Medal",
+  "condition": {
+   "type": "rank",
+   "param": "hazard-hunter"
+  }
+ },
+ {
+  "id": "rank-intersection-expert",
+  "name": "Rank: Intersection Expert",
+  "description": "Reach the Intersection Expert licence rank.",
+  "rarity": "rare",
+  "icon": "Medal",
+  "condition": {
+   "type": "rank",
+   "param": "intersection-expert"
+  }
+ },
+ {
+  "id": "rank-road-rules-pro",
+  "name": "Rank: Road Rules Pro",
+  "description": "Reach the Road Rules Pro licence rank.",
+  "rarity": "epic",
+  "icon": "Medal",
+  "condition": {
+   "type": "rank",
+   "param": "road-rules-pro"
+  }
+ },
+ {
+  "id": "rank-test-ready",
+  "name": "Rank: Test Ready",
+  "description": "Reach the Test Ready licence rank.",
+  "rarity": "epic",
+  "icon": "Medal",
+  "condition": {
+   "type": "rank",
+   "param": "test-ready"
+  }
+ },
+ {
+  "id": "rank-nsw-road-master",
+  "name": "Rank: NSW Road Master",
+  "description": "Reach the NSW Road Master licence rank.",
+  "rarity": "legendary",
+  "icon": "Medal",
+  "condition": {
+   "type": "rank",
+   "param": "nsw-road-master"
+  }
+ },
+ {
+  "id": "top-100",
+  "name": "NSW Top 100",
+  "description": "Reach the global top 100.",
+  "rarity": "epic",
+  "icon": "Globe2",
+  "condition": {
+   "type": "globalRank",
+   "value": 100
+  }
+ },
+ {
+  "id": "top-10",
+  "name": "NSW Top 10",
+  "description": "Reach the global top 10.",
+  "rarity": "legendary",
+  "icon": "Globe2",
+  "condition": {
+   "type": "globalRank",
+   "value": 10
+  }
+ },
+ {
+  "id": "number-one",
+  "name": "Number One in NSW",
+  "description": "Reach #1 on the global leaderboard.",
+  "rarity": "legendary",
+  "icon": "Crown",
+  "condition": {
+   "type": "globalRank",
+   "value": 1
+  }
+ },
+ {
+  "id": "suburb-hero",
+  "name": "Suburb Hero",
+  "description": "Be #1 in your suburb.",
+  "rarity": "epic",
+  "icon": "MapPin",
+  "condition": {
+   "type": "suburbRank",
+   "value": 1
+  }
+ },
+ {
+  "id": "coins-1000",
+  "name": "1,000 Coins",
+  "description": "Earn 1,000 coins in total.",
+  "rarity": "common",
+  "icon": "Coins",
+  "condition": {
+   "type": "coinsEarned",
+   "value": 1000
+  }
+ },
+ {
+  "id": "coins-5000",
+  "name": "5,000 Coins",
+  "description": "Earn 5,000 coins in total.",
+  "rarity": "rare",
+  "icon": "Coins",
+  "condition": {
+   "type": "coinsEarned",
+   "value": 5000
+  }
+ },
+ {
+  "id": "coins-20000",
+  "name": "20,000 Coins",
+  "description": "Earn 20,000 coins in total.",
+  "rarity": "epic",
+  "icon": "Coins",
+  "condition": {
+   "type": "coinsEarned",
+   "value": 20000
+  }
+ },
+ {
+  "id": "xp-5000",
+  "name": "5,000 XP",
+  "description": "Earn 5,000 XP in total.",
+  "rarity": "rare",
+  "icon": "Sparkle",
+  "condition": {
+   "type": "xp",
+   "value": 5000
+  }
+ },
+ {
+  "id": "xp-25000",
+  "name": "25,000 XP",
+  "description": "Earn 25,000 XP in total.",
+  "rarity": "epic",
+  "icon": "Sparkle",
+  "condition": {
+   "type": "xp",
+   "value": 25000
+  }
+ },
+ {
+  "id": "xp-100000",
+  "name": "100,000 XP",
+  "description": "Earn 100,000 XP in total.",
+  "rarity": "legendary",
+  "icon": "Sparkle",
+  "condition": {
+   "type": "xp",
+   "value": 100000
+  }
+ }
+]

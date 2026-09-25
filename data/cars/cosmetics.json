@@ -1,0 +1,74 @@
+{
+  "paints": [
+    { "id": "sunburst", "name": "Sunburst Yellow", "hex": "#facc15", "price": 0 },
+    { "id": "harbour", "name": "Harbour Blue", "hex": "#2563eb", "price": 0 },
+    { "id": "eucalypt", "name": "Eucalypt Green", "hex": "#16a34a", "price": 0 },
+    { "id": "coral", "name": "Coral Reef", "hex": "#fb7185", "price": 120 },
+    { "id": "outback", "name": "Outback Ochre", "hex": "#c2410c", "price": 120 },
+    { "id": "midnight", "name": "Midnight Navy", "hex": "#1e3a8a", "price": 120 },
+    { "id": "seafoam", "name": "Seafoam", "hex": "#5eead4", "price": 150 },
+    { "id": "flame", "name": "Flame Red", "hex": "#dc2626", "price": 150 },
+    { "id": "electric", "name": "Electric Violet", "hex": "#7c3aed", "price": 200 },
+    { "id": "redearth", "name": "Red Earth", "hex": "#9a3412", "price": 150 },
+    { "id": "pearl", "name": "Pearl White", "hex": "#f1f5f9", "price": 200 },
+    { "id": "mint", "name": "Mint Chip", "hex": "#6ee7b7", "price": 150 },
+    { "id": "mustard", "name": "Retro Mustard", "hex": "#ca8a04", "price": 250 },
+    { "id": "gold", "name": "24K Gold", "hex": "#fbbf24", "price": 0, "achievement": "virtual-licence" },
+    { "id": "champion", "name": "Champion Teal", "hex": "#14b8a6", "price": 0, "achievement": "suburb-hero" },
+    { "id": "obsidian", "name": "Obsidian", "hex": "#111827", "price": 400 },
+    { "id": "ultraviolet", "name": "Ultraviolet", "hex": "#a21caf", "price": 0, "achievement": "weekly-warrior" },
+    { "id": "silver", "name": "Silver Streak", "hex": "#94a3b8", "price": 100 },
+    { "id": "orange", "name": "Bondi Orange", "hex": "#f97316", "price": 100 },
+    { "id": "sky", "name": "Blue Mountains Sky", "hex": "#38bdf8", "price": 100 }
+  ],
+  "wheels": [
+    { "id": "steel", "name": "Learner Steelies", "style": "steel", "price": 0 },
+    { "id": "sport", "name": "Five-Spoke Sport", "style": "spoke", "price": 150 },
+    { "id": "turbine", "name": "Turbine", "style": "turbine", "price": 250 },
+    { "id": "offroad", "name": "Off-Road Chunky", "style": "chunky", "price": 250 },
+    { "id": "gold", "name": "Gold Mesh", "style": "mesh", "price": 400 },
+    { "id": "neon", "name": "Neon Rim", "style": "neon", "price": 350, "achievement": "night-owl" }
+  ],
+  "roofs": [
+    { "id": "none", "name": "Clean Roof", "price": 0 },
+    { "id": "racks", "name": "Roof Racks", "price": 100 },
+    { "id": "surfboard", "name": "Surfboard", "price": 200 },
+    { "id": "kayak", "name": "Kayak", "price": 250 },
+    { "id": "lightbar", "name": "Light Bar", "price": 300 },
+    { "id": "pod", "name": "Cargo Pod", "price": 200 }
+  ],
+  "decals": [
+    { "id": "none", "name": "No Decal", "price": 0 },
+    { "id": "stripes", "name": "Racing Stripes", "price": 150 },
+    { "id": "gumleaf", "name": "Gum Leaf", "price": 150 },
+    { "id": "bolt", "name": "Lightning Bolt", "price": 200 },
+    { "id": "checker", "name": "Chequered", "price": 200, "achievement": "perfect-10" },
+    { "id": "wave", "name": "Surf Wave", "price": 180 },
+    { "id": "crown", "name": "Royal Crown", "price": 0, "achievement": "roundabout-royalty" }
+  ],
+  "plates": [
+    { "id": "classic", "name": "Classic Black & White", "bg": "#ffffff", "fg": "#111827", "price": 0 },
+    { "id": "sunshine", "name": "Sunshine Yellow", "bg": "#fde047", "fg": "#111827", "price": 80 },
+    { "id": "night", "name": "Midnight", "bg": "#0f172a", "fg": "#e2e8f0", "price": 120 },
+    { "id": "sunset", "name": "Sunset Gradient", "bg": "#fb923c", "fg": "#ffffff", "price": 150 },
+    { "id": "carbon", "name": "Carbon", "bg": "#1f2937", "fg": "#facc15", "price": 200 }
+  ],
+  "lplates": [
+    { "id": "classic", "name": "Classic L", "bg": "#facc15", "fg": "#000000", "price": 0 },
+    { "id": "neon", "name": "Neon L", "bg": "#22d3ee", "fg": "#0f172a", "price": 120 },
+    { "id": "gold", "name": "Gold L", "bg": "#fbbf24", "fg": "#7c2d12", "price": 0, "achievement": "century" }
+  ],
+  "interiors": [
+    { "id": "charcoal", "name": "Charcoal", "hex": "#374151", "price": 0 },
+    { "id": "tan", "name": "Tan Leather", "hex": "#b45309", "price": 100 },
+    { "id": "red", "name": "Race Red", "hex": "#b91c1c", "price": 120 },
+    { "id": "ice", "name": "Ice White", "hex": "#e5e7eb", "price": 120 }
+  ],
+  "garages": [
+    { "id": "carport", "name": "Suburban Carport", "price": 0, "from": "#1e293b", "to": "#0f172a" },
+    { "id": "beach", "name": "Beach Car Park", "price": 300, "from": "#0ea5e9", "to": "#fde68a" },
+    { "id": "outback", "name": "Outback Sunset", "price": 300, "from": "#f97316", "to": "#7c2d12" },
+    { "id": "harbour", "name": "Harbour Night", "price": 400, "from": "#312e81", "to": "#0f172a" },
+    { "id": "showroom", "name": "Neon Showroom", "price": 0, "achievement": "road-scholar", "from": "#a21caf", "to": "#0f172a" }
+  ]
+}

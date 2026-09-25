@@ -1,0 +1,219 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: var(--font-lilita), "Arial Rounded MT Bold", system-ui, sans-serif;
+  --font-sans: var(--font-nunito), ui-sans-serif, system-ui, sans-serif;
+
+  --color-night-950: #050915;
+  --color-night-900: #0a1022;
+  --color-night-850: #0d1530;
+  --color-night-800: #111b3a;
+  --color-night-700: #19254d;
+  --color-night-600: #22325f;
+  --color-night-500: #31457e;
+  --color-night-400: #5b6ea8;
+  --color-night-300: #95a3cf;
+
+  --color-sun-300: #ffe38a;
+  --color-sun-400: #ffd84d;
+  --color-sun-500: #ffc93c;
+  --color-sun-600: #f5a70b;
+  --color-sun-700: #c27c00;
+
+  --color-flame-400: #ff9a4d;
+  --color-flame-500: #ff7a1a;
+  --color-flame-600: #e2600a;
+
+  --color-aqua-300: #7ff5ea;
+  --color-aqua-400: #2ee6d6;
+  --color-aqua-500: #19d3c5;
+  --color-aqua-600: #0ea89c;
+
+  --color-berry-400: #ff79a8;
+  --color-berry-500: #ff4d8d;
+  --color-berry-600: #e02f71;
+
+  --color-grape-400: #a78bfa;
+  --color-grape-500: #8b5cf6;
+  --color-grape-600: #7c3aed;
+
+  --color-leaf-400: #4ade80;
+  --color-leaf-500: #22c55e;
+  --color-leaf-600: #16a34a;
+
+  --color-danger-400: #f87171;
+  --color-danger-500: #ef4444;
+  --color-danger-600: #dc2626;
+
+  --animate-blink: blink 0.9s steps(2, start) infinite;
+  --animate-float: float 3.2s ease-in-out infinite;
+  --animate-pop: pop 0.45s cubic-bezier(0.2, 1.4, 0.4, 1) both;
+  --animate-slide-up: slideUp 0.45s cubic-bezier(0.2, 0.9, 0.3, 1) both;
+  --animate-shake: shake 0.5s ease-in-out both;
+  --animate-shimmer: shimmer 2.4s linear infinite;
+  --animate-spin-slow: spin 12s linear infinite;
+}
+
+@keyframes blink {
+  to {
+    visibility: hidden;
+  }
+}
+@keyframes blinkAlt {
+  0%, 49% { opacity: 0.2; }
+  50%, 100% { opacity: 1; }
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes pop {
+  0% { transform: scale(0.6); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+@keyframes slideUp {
+  0% { transform: translateY(24px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-8px); }
+  40% { transform: translateX(7px); }
+  60% { transform: translateX(-5px); }
+  80% { transform: translateX(3px); }
+}
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+@keyframes pulseRing {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.35; }
+}
+@keyframes roadScroll {
+  from { background-position-y: 0; }
+  to { background-position-y: 80px; }
+}
+@keyframes flyUp {
+  0% { transform: translate(-50%, 0) scale(0.8); opacity: 0; }
+  15% { transform: translate(-50%, -10px) scale(1.15); opacity: 1; }
+  100% { transform: translate(-50%, -90px) scale(1); opacity: 0; }
+}
+@keyframes confettiFall {
+  0% { transform: translate3d(0, -20vh, 0) rotate(0deg); opacity: 1; }
+  100% { transform: translate3d(var(--dx, 0), 110vh, 0) rotate(var(--rot, 720deg)); opacity: 1; }
+}
+@keyframes flash {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes sirenLeft {
+  0%, 49% { background: rgba(239, 68, 68, 0.45); }
+  50%, 100% { background: rgba(59, 130, 246, 0.45); }
+}
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+@keyframes drive {
+  from { transform: translateX(-30vw); }
+  to { transform: translateX(130vw); }
+}
+
+.animate-blink { animation: blink 0.9s steps(2, start) infinite; }
+.animate-blink-alt { animation: blinkAlt 0.9s linear infinite; }
+.animate-pulse-ring { animation: pulseRing 1.2s ease-in-out infinite; }
+.animate-road { animation: roadScroll 0.6s linear infinite; }
+.animate-wiggle { animation: wiggle 0.6s ease-in-out infinite; }
+
+html {
+  background: #050915;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(139, 92, 246, 0.18), transparent 60%),
+    radial-gradient(900px 500px at 110% 10%, rgba(25, 211, 197, 0.12), transparent 60%),
+    linear-gradient(180deg, #0a1022 0%, #050915 100%);
+  color: #eef2ff;
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+@layer components {
+/* Chunky 3D game buttons */
+.btn-3d {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 1rem;
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  transition: transform 0.08s ease, box-shadow 0.08s ease, filter 0.15s ease;
+  box-shadow: 0 5px 0 var(--btn-shadow, #a16207), 0 10px 24px rgba(0, 0, 0, 0.35);
+  user-select: none;
+}
+.btn-3d:hover { filter: brightness(1.07); }
+.btn-3d:active:not(:disabled) {
+  transform: translateY(4px);
+  box-shadow: 0 1px 0 var(--btn-shadow, #a16207), 0 4px 10px rgba(0, 0, 0, 0.35);
+}
+.btn-3d:disabled { opacity: 0.5; cursor: not-allowed; filter: grayscale(0.4); }
+.btn-3d:focus-visible, .focus-ring:focus-visible {
+  outline: 3px solid #ffd84d;
+  outline-offset: 3px;
+}
+
+.card-game {
+  background: linear-gradient(180deg, rgba(34, 50, 95, 0.55), rgba(17, 27, 58, 0.75));
+  border: 1px solid rgba(149, 163, 207, 0.16);
+  border-radius: 1.5rem;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06) inset, 0 18px 40px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(8px);
+}
+
+.text-outline {
+  -webkit-text-stroke: 2px rgba(5, 9, 21, 0.9);
+  paint-order: stroke fill;
+}
+
+.shine {
+  background-image: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.25) 45%, transparent 60%);
+  background-size: 200% 100%;
+  animation: shimmer 2.8s linear infinite;
+}
+
+.road-bg {
+  background-color: #374151;
+  background-image: linear-gradient(to bottom, #f8fafc 50%, transparent 50%);
+  background-size: 6px 80px;
+  background-repeat: repeat-y;
+  background-position-x: center;
+}
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
+
+.safe-bottom { padding-bottom: max(0.75rem, env(safe-area-inset-bottom)); }
+
+/* Respect reduced-motion (OS setting OR in-game setting) */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+  .animate-blink, .animate-blink-alt { animation: none !important; }
+}
+.reduce-motion *, .reduce-motion *::before, .reduce-motion *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+}

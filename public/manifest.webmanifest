@@ -1,0 +1,10 @@
+{
+  "name": "RoadQuest NSW",
+  "short_name": "RoadQuest",
+  "description": "Learn the road. Beat the test. Rule your suburb.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1022",
+  "theme_color": "#0a1022",
+  "icons": [{ "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

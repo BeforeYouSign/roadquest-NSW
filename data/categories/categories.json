@@ -1,0 +1,128 @@
+[
+  {
+    "id": "general",
+    "name": "General Knowledge",
+    "short": "General",
+    "icon": "BookOpen",
+    "color": "#38bdf8",
+    "sourceCodes": ["CG"],
+    "whyItMatters": "These everyday rules cover parking, freeways, emergency vehicles and your responsibilities as a driver. Getting them wrong causes fines, crashes and blocked roads."
+  },
+  {
+    "id": "test-rules",
+    "name": "Test Rules",
+    "short": "Test Rules",
+    "icon": "ShieldCheck",
+    "color": "#94a3b8",
+    "sourceCodes": ["ICAC"],
+    "whyItMatters": "Knowledge tests only mean something if they are honest. Cheating or bribery carries serious penalties for everyone involved."
+  },
+  {
+    "id": "alcohol-drugs",
+    "name": "Alcohol & Drugs",
+    "short": "Alcohol & Drugs",
+    "icon": "Wine",
+    "color": "#f472b6",
+    "sourceCodes": ["AD", "DR"],
+    "whyItMatters": "Alcohol and many drugs slow your reactions and wreck your judgement. Crashes involving alcohol are generally more serious."
+  },
+  {
+    "id": "bicycles",
+    "name": "Bicycle Safety",
+    "short": "Cyclists",
+    "icon": "Bike",
+    "color": "#a3e635",
+    "sourceCodes": ["BI"],
+    "whyItMatters": "Bike riders have no crumple zone. Giving them enough space when you pass can be the difference between a close call and a hospital visit."
+  },
+  {
+    "id": "fatigue-defensive",
+    "name": "Fatigue & Defensive Driving",
+    "short": "Fatigue & Defensive",
+    "icon": "Eye",
+    "color": "#fbbf24",
+    "sourceCodes": ["FD"],
+    "whyItMatters": "Tired or distracted drivers react late. Leaving space, scanning and resting keep you in control when something unexpected happens."
+  },
+  {
+    "id": "intersections",
+    "name": "Intersections",
+    "short": "Intersections",
+    "icon": "Split",
+    "color": "#fb923c",
+    "sourceCodes": ["IN"],
+    "whyItMatters": "Intersections are where paths cross. Knowing exactly who gives way stops two cars arriving at the same spot at the same time."
+  },
+  {
+    "id": "roundabouts",
+    "name": "Roundabouts",
+    "short": "Roundabouts",
+    "icon": "RotateCw",
+    "color": "#2dd4bf",
+    "sourceCodes": ["IN056–IN067"],
+    "whyItMatters": "Choosing the right lane and signalling clearly at roundabouts lets everyone predict where you are going."
+  },
+  {
+    "id": "traffic-lights",
+    "name": "Traffic Lights",
+    "short": "Traffic Lights",
+    "icon": "TrafficCone",
+    "color": "#ef4444",
+    "sourceCodes": ["TL"],
+    "whyItMatters": "Lights share one space between many directions. Entering on red, or at the wrong time, puts you straight into another driver's path."
+  },
+  {
+    "id": "traffic-lanes",
+    "name": "Traffic Lanes",
+    "short": "Lanes",
+    "icon": "Columns3",
+    "color": "#818cf8",
+    "sourceCodes": ["LD"],
+    "whyItMatters": "Lane lines tell everyone where traffic will be. Crossing the wrong line or merging carelessly causes side-swipes and head-on crashes."
+  },
+  {
+    "id": "negligent-driving",
+    "name": "Negligent Driving & Overtaking",
+    "short": "Overtaking",
+    "icon": "Gauge",
+    "color": "#e879f9",
+    "sourceCodes": ["ND"],
+    "whyItMatters": "Overtaking puts you on the wrong side of the road at speed. Poor judgement here leads to the most severe crashes and heavy penalties."
+  },
+  {
+    "id": "pedestrians",
+    "name": "Pedestrians",
+    "short": "Pedestrians",
+    "icon": "Footprints",
+    "color": "#22d3ee",
+    "sourceCodes": ["PD"],
+    "whyItMatters": "People on foot are the most vulnerable road users. Children and older people in particular may not see you or may move suddenly."
+  },
+  {
+    "id": "seatbelts",
+    "name": "Seat Belts & Restraints",
+    "short": "Seat Belts",
+    "icon": "ShieldPlus",
+    "color": "#4ade80",
+    "sourceCodes": ["SB"],
+    "whyItMatters": "In a crash, a properly worn seat belt or child restraint is the most effective protection a passenger has."
+  },
+  {
+    "id": "speed-limits",
+    "name": "Speed Limits",
+    "short": "Speed",
+    "icon": "Gauge",
+    "color": "#f87171",
+    "sourceCodes": ["SL"],
+    "whyItMatters": "The faster you go, the longer it takes to stop and the harder you hit. Limits are a maximum, not a target."
+  },
+  {
+    "id": "traffic-signs",
+    "name": "Traffic Signs",
+    "short": "Signs",
+    "icon": "Signpost",
+    "color": "#facc15",
+    "sourceCodes": ["SI"],
+    "whyItMatters": "Signs warn you about what you cannot see yet — a bend, a crossing, a school, a train. Reading them early buys you time."
+  }
+]

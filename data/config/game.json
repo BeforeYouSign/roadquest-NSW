@@ -1,0 +1,108 @@
+{
+  "branding": {
+    "title": "RoadQuest NSW",
+    "tagline": "Learn the road. Beat the test. Rule your suburb.",
+    "disclaimer": "RoadQuest NSW is an independent study game and is not affiliated with or endorsed by Transport for NSW or the NSW Government. Always consult official NSW Government resources for current road rules and licensing requirements.",
+    "testDisclaimer": "Practice assessment based on the supplied NSW road-rule study material. This is not the official NSW Driver Knowledge Test."
+  },
+  "xp": {
+    "correctStandard": 10,
+    "correctHard": 20,
+    "hardFromDifficulty": 3,
+    "fastBonus": 5,
+    "fastThresholdMs": 6000,
+    "streak5": 20,
+    "streak10": 50,
+    "perfectRound": 100,
+    "dailyChallenge": 250,
+    "weeklyChallenge": 1000,
+    "levelComplete": 150,
+    "finalTestPass": 2000,
+    "practiceTestComplete": 150,
+    "firstDrive": 100
+  },
+  "coins": {
+    "perCorrect": 2,
+    "perfectRound": 25,
+    "dailyChallenge": 50,
+    "weeklyChallenge": 200,
+    "levelComplete": 40,
+    "finalTestPass": 500,
+    "firstDrive": 150
+  },
+  "levels": {
+    "baseXp": 150,
+    "stepXp": 50,
+    "titles": [
+      { "from": 1, "title": "Beginner" },
+      { "from": 11, "title": "Learner" },
+      { "from": 21, "title": "Road Smart" },
+      { "from": 31, "title": "Road Expert" },
+      { "from": 41, "title": "Road Master" },
+      { "from": 51, "title": "Road Legend" }
+    ]
+  },
+  "skill": {
+    "start": 1000,
+    "kNew": 32,
+    "kSettled": 20,
+    "settledAfter": 60,
+    "questionRating": { "1": 950, "2": 1200, "3": 1450 },
+    "modeMultiplier": { "daily": 1, "weekly": 1, "test": 1, "final": 1, "minigame": 0.6, "journey": 0.5, "quick": 0.5, "practice": 0.4, "drive": 0.5, "onboarding": 0 },
+    "repeatCooldownHours": 24,
+    "fastMultiplier": 1.15,
+    "floor": 100,
+    "tiers": [
+      { "min": 0, "name": "Bronze", "color": "#cd7f32" },
+      { "min": 1100, "name": "Silver", "color": "#cbd5e1" },
+      { "min": 1250, "name": "Gold", "color": "#facc15" },
+      { "min": 1400, "name": "Platinum", "color": "#67e8f9" },
+      { "min": 1550, "name": "Diamond", "color": "#a78bfa" },
+      { "min": 1700, "name": "Road Elite", "color": "#fb7185" }
+    ]
+  },
+  "points": {
+    "perCorrectByDifficulty": { "1": 10, "2": 15, "3": 25 },
+    "speedBonusMax": 5,
+    "perfectRound": 50,
+    "modeMultiplier": { "daily": 1, "weekly": 1, "final": 0.5, "test": 0.5, "minigame": 0.5, "journey": 0.3, "drive": 0.3, "quick": 0.2, "practice": 0.1, "onboarding": 0 },
+    "nonRankedDailyCap": 400,
+    "rankedModes": ["daily", "weekly"]
+  },
+  "test": {
+    "sections": [
+      { "id": "general", "label": "General Knowledge", "sourceSections": ["General Knowledge"], "count": 15, "passMark": 12 },
+      { "id": "road-safety", "label": "Road Safety & Traffic Signs", "sourceSections": ["Road Safety", "Traffic Signs"], "count": 30, "passMark": 29 }
+    ],
+    "note": "Question counts and pass marks are configurable. Verify against current official requirements before relying on them."
+  },
+  "daily": { "count": 10, "timePerQuestionSec": 25, "maxPerCategory": 2, "minHard": 3 },
+  "weekly": { "count": 30, "minDifficulty": 2, "timePerQuestionSec": 30 },
+  "quick": { "count": 8 },
+  "practice": { "count": 10 },
+  "minigame": { "defaultCount": 8 },
+  "suburb": {
+    "minActivePlayers": 3,
+    "topN": 10,
+    "playerCap": 3000,
+    "participationBonusPerPlayer": 0.05,
+    "maxParticipationBonus": 0.5
+  },
+  "security": {
+    "minMsPerAnswer": 700,
+    "minSecondsBetweenSessions": 3,
+    "maxSessionsPerHour": 60,
+    "sessionTtlMinutes": 90,
+    "maxAnswersPerSession": 60
+  },
+  "mastery": {
+    "boxValue": [0, 0.5, 0.8, 1],
+    "reviewIntervalsDays": [0, 1, 3, 7],
+    "masteredThreshold": 0.8
+  },
+  "licence": {
+    "requiredRank": "test-ready",
+    "requiredCategoryMastery": 0.6,
+    "numberPrefix": "RQ"
+  }
+}

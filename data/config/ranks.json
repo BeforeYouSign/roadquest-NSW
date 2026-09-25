@@ -1,0 +1,11 @@
+[
+  { "id": "rookie", "name": "Rookie", "icon": "Sprout", "description": "Everyone starts somewhere. Welcome to the road.", "requires": {} },
+  { "id": "road-recruit", "name": "Road Recruit", "icon": "Flag", "description": "Complete your first map location.", "requires": { "mapLevels": 1 } },
+  { "id": "learner", "name": "Learner", "icon": "GraduationCap", "description": "Reach player level 3 and answer 50 questions.", "requires": { "playerLevel": 3, "answered": 50 } },
+  { "id": "road-smart", "name": "Road Smart", "icon": "Brain", "description": "Reach 50% mastery in 3 categories and clear 3 map locations.", "requires": { "mapLevels": 3, "categoriesAtLeast": { "count": 3, "min": 0.5 } } },
+  { "id": "hazard-hunter", "name": "Hazard Hunter", "icon": "Radar", "description": "Clear 4 map locations and reach 50% mastery in 6 categories.", "requires": { "mapLevels": 4, "categoriesAtLeast": { "count": 6, "min": 0.5 } } },
+  { "id": "intersection-expert", "name": "Intersection Expert", "icon": "Split", "description": "Reach 70% Intersections mastery and clear 5 map locations.", "requires": { "mapLevels": 5, "category": { "id": "intersections", "min": 0.7 } } },
+  { "id": "road-rules-pro", "name": "Road Rules Pro", "icon": "Trophy", "description": "Reach player level 10, clear 7 locations and 60% mastery in 10 categories.", "requires": { "playerLevel": 10, "mapLevels": 7, "categoriesAtLeast": { "count": 10, "min": 0.6 } } },
+  { "id": "test-ready", "name": "Test Ready", "icon": "ClipboardCheck", "description": "60% mastery in every category and 10 map locations cleared. Unlocks the Ultimate NSW Learner Test.", "requires": { "mapLevels": 10, "allCategoriesMin": 0.6 } },
+  { "id": "nsw-road-master", "name": "NSW Road Master", "icon": "Crown", "description": "Pass the Ultimate NSW Learner Test and earn your Virtual Learner Licence.", "requires": { "finalTestPassed": true } }
+]
